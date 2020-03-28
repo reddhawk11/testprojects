@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cheat Sheet: HTML Table Reference</title>
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>HMTL Table Reference</h1>
+      <nav>
+        <ul>
+          <li><a href="#tags">Table tags</a></li>
+          <li><a href="#attributes">Table attributes</a></li>
+          <li><a href="#html">HTML Page Minimum</a></li>
+        </ul>
+      </nav>
+    </header>
+      <main>
+        <div id="tags">
+        <h2>Table tags</h2>
+        <table>
+          <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <td class="code">&lt;table&gt;</td>
+            <td>Table</td>
+            <td>The wrapper element for all HTML tables</td>
+            </tr>
+            <tr>
+              <td class="code">&lt;thead&gt;</td>
+              <td>Table Head</td>
+              <td>The set of rows defining the column headers in a table</td>
+            </tr>
+            <tr>
+              <td class="code">&lt;tbody&gt;</td>
+              <td>Table Body</td>
+              <td>The set of rows containing actual table data</td>
+            </tr>
+            <tr>
+              <td class="code">&lt;tr&gt;</td>
+              <td>Table Row</td>
+              <td>The table row container</td>
+            </tr>
+            <tr>
+              <td class="code">&lt;td&gt;</td>
+            <td>Table Data</td>
+            <td>The table row container</td>
+          </tr>
+            <tr>
+              <td class="code">&lt;tfoot&gt;</td>
+              <td>Table Foot</td>
+              <td>The set of rows defining the footer in a table</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div id="attributes">
+        <h2>Table attributes</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Attribute</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="code">colspan</td>
+              <td>Column Span</td>
+              <td>Defines how many columns a td element should span</td>
+            </tr>
+            <tr>
+              <td class="code">rowspan</td>
+              <td>Row Span</td>
+              <td>Defines how many rows a &lt;td&gt; element should span</td>
+            </tr>
+          </tbody>
+          </table>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div id="html">
+          <h2>HTML Page Minimums</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Purpose</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="code">&lt;!DOCTYPE html&gt;</td>
+                <td>Doc Type</td>
+                <td>Establishes document type to be read by the browser, must be included in every HTML page at the top</td>
+              </tr>
+              <tr>
+                <td class="code">&lt;html&gt;</td>
+                <td>HTML</td>
+                <td>All code must be within opening and closing html elements for it to be read correctly by the browser</td>
+              </tr>
+              <tr>
+                <td class="code">&lt;head&gt;</td>
+                <td>Head</td>
+                <td>Top of the page</td>
+              </tr>
+              <tr>
+                <td class="code">&lt;title&gt;</td>
+                <td>Title</td>
+                <td>Populates the Title of the Page in the Browser window/Tab</td>
+              </tr>
+              <tr>
+                <td class="code">&lt;link&gt;</td>
+                <td>Link</td>
+                <td>Links the CSS Stylsheet to the HTML document, typically formattted as: href=".css" type="text/css" rel="stylesheet"</td>
+              </tr>
+              <tr>
+                <td class="code">&lt;body&gt;</td>
+                <td>Body</td>
+                <td>Majority of the content is within the body elements</td>
+              </tr>
+              <tr>
+                <td class="code">&lt;header&gt;</td>
+                <td>Header</td>
+                <td>Populates the Header of the page</td>
+              </tr>
+              <tr>
+                <td class="code">&lt;nav&gt;</td>
+                <td>Nav</td>
+                <td>Establishes navigation links to various anchored code on the page</td>
+              </tr>
+              <tr>
+                <td class="code">&lt;main&gt;</td>
+                <td>Main</td>
+                <td>Main body of the page, inside of body element</td>
+              </tr>
+              <tr>
+                <td class="code">&lt;div&gt;</td>
+                <td>Div</td>
+                <td>Divider between sections of the website, allows for easier navigation for the browser</td>
+              </tr>
+              <tr>
+                <td class="code">&lt;footer&gt;</td>
+                <td>Footer</td>
+                <td>As with Header, Footer centers text and has any closing comments/information and typically has links back to the top of the page</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </main>
+    <br>
+        <footer>
+          <h5> Made by Matt M.</h5>
+    </footer>
+  </body>
+</html>
